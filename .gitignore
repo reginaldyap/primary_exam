@@ -1,0 +1,34 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+.DS_Store
+nbproject
+public/*.csv
+
+## Ignore some Cypress directory or files
+/cypress/videos
+/cypress/screenshots
+
+# Docker
+/docker/.env
+/docker/data
+
+public/files/*
+!public/files/.keep
+public/photos/*
+!public/photos/.keep
+public/uploads/*
+!public/uploads/.keep
+public/vendor/*
+!public/vendor/.keep
+
+.php_cs.cache
